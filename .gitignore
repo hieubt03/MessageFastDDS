@@ -1,0 +1,20 @@
+# Ignore build directories
+/out/
+/build/
+/.vs/
+/cmake-build-debug/
+/cmake-build-release/
+/CMakeFiles/
+
+
+# Ignore Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+
+# Ignore generated files by Fast DDS
+*.hxx
+*.hpp
+*.idl
